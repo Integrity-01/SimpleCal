@@ -1,0 +1,42 @@
+html{
+    box-sizing: border-box;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+#calculator{
+    border: 2px solid black;
+    border-radius: 30px;
+    background-color: black;
+    padding: 20px;   
+    margin: 0 auto;
+    width: 95%;
+}
+
+.flex-container{
+    justify-content: space-between;
+    align-items: center;
+}
+.flex-item{
+    color: #fff;
+    background-color: rgb(49, 44, 44);
+    padding: 10px;
+    width: 23%;
+    height: 23%;
+    margin-bottom: 10px;
+}
+
+@media (min-width:576px){
+    #calculator{
+        width: 70%;
+        padding: 20px;
+    }
+}
+@media (min-width:768px){
+    #calculator{
+        width: 30%;
+        padding: 20px;
+    }
+}
+ 
